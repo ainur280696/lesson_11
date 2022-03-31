@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    max-width: 1440px;
+}
+.doggie{
+    position: relative;
+}
+.who-we-are{
+    position: relative;
+    bottom: 75px;
+}
+.who-we-are::after{
+    content: "";
+    background-image: url('../img/stylize_circles.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 201px;
+    height: 317px;
+    position: absolute;
+    right: 140px;
+    top: -128px;
+}
+.who-we-are__container{
+    background-color: #5d62b5;
+    color:#f5f5f5;
+    max-width: 1035px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+.who-we-are__title{
+    padding: 100px 0 0 120px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    position: relative;
+} 
+.who-we-are__title::before{
+    content: "";
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 98px;
+    left: 90px;
+}
+.who-we-are__sub-title{
+    max-width: 583px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2;
+    padding-left: 90px;
+    margin-bottom: 36px;
+}
+.who-we-are__content{
+    max-width: 846px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    padding-left: 90px;
+    position: absolute;
+    z-index: 5;
+}
+.spot__image{
+    padding-left: 55px;
+}
+.dog{
+    position: relative;
+}
+.dog__image{
+    max-width: 846px;
+	height: 420px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+	border-radius: 40px;
+	position: absolute;
+    bottom: -185px;
+    left: 90px;
+    z-index: 10;
+}
